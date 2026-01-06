@@ -6,13 +6,6 @@ module RISC_V_Single_Cycle (
     input wire [6:0] sw,
     output wire [15:0] led 
     
-   // output wire [7:0] PC_Out_debug,       // Only bottom 8 bits
-    //output wire [7:0] ALU_Result_debug,   // Only bottom 8 bits
-    //output wire [7:0] Result_debug,       // Only bottom 8 bits
-    //output wire [7:0] Instruction_debug,  // Only bottom 8 bits (Opcode mostly)
-    //output wire       Zero_debug,         
-    //output wire       Branch_debug
-    
 );
 
     // PC and Fetch Wires
@@ -49,16 +42,8 @@ module RISC_V_Single_Cycle (
     wire [31:0] Read_Data;       // Read Data from DMEM
 
     // Control Unit Inputs
-    wire funct7b5 = instruction[30]; // MSB of funct7 for R-type/I-type (SRA/SUB)
-//    assign PC_Out_debug      = pc_out[7:0];
-//    assign ALU_Result_debug  = ALU_Result[7:0];
-//    assign Result_debug      = Result[7:0];
-//    assign Instruction_debug = instruction[7:0];
-//    assign Zero_debug        = zero;
-//    assign Branch_debug      = Branch;
-    
-    // 2. Instantiation of Components
-    
+    wire funct7b5 = instruction[30]; 
+
 
     // 2.1 PC and PC Logic
     PC program_counter (
