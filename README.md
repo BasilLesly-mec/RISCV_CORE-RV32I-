@@ -73,6 +73,51 @@ Waveform-based debugging for datapath and control signals
 
 ![BLOCK DIAGRAM](simulation_fiboacci.png)
 
+>>FPGA IMPLIMENTATION AND TESTING 
+
+Synthesizable on Xilinx FPGA platforms
+
+Tested on FPGA hardware
+
+Supports clock, reset, and basic I/O testing
+
+Suitable for on-board debugging using LEDs and switches
+
+>>FPGA TESTING
+
+video of FPGA testing 
+
+drive link : https://drive.google.com/drive/folders/1rhm8opA3H1_Njlgch6D8PIIFZrFix9Cl?usp=drive_link
+
+
+>>Future Extensions
+
+5-stage pipelined RV32I
+
+Hazard detection and forwarding
+
+AXI / AHB bus integration
+
+UART / I2S / GPIO peripherals
+
+DSP / NPU accelerators
+
+RISC-V extensions (M, C)
+
+>>Intended Audience
+
+VLSI & ECE students
+
+FPGA and RTL design learners
+
+Researchers studying RISC-V microarchitecture
+
+Engineers building custom SoC designs
+
+>>License
+
+Released for educational and research purposes.
+
 
 
 
