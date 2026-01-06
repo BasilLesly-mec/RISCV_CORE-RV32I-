@@ -53,5 +53,12 @@ LUI, AUIPC
 
 ![THESE ARE THE SUPPROTED INSTRUCTIONS WITH ADDRESS](instuctions.jpeg)
 
+>>PROCESSOR BLOCK DIAGRAM
+
+
+![Block Diagram](./BLOCK DIAGRAM.jpeg)
+
+
+
 
 
