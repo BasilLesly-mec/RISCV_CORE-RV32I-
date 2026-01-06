@@ -58,6 +58,24 @@ LUI, AUIPC
 
 ![BLOCK DIAGRAM](BLOCK_DIAGRAM.jpeg)
 
+ 
+ >> VERIFICATION AND SIMULATION 
+
+RTL simulation performed using Verilog simulators
+
+Instruction-level functional verification
+
+Waveform-based debugging for datapath and control signals
+
+>>WAVEFORM (fibonacci series verified )
+
+![BLOCK DIAGRAM](simulation.png)
+
+![BLOCK DIAGRAM](simulation_fiboacci.png)
+
+
+
+
 
 
 
