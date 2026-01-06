@@ -1,11 +1,10 @@
 `timescale 1ns / 1ps
-
-module mux_alu_srca( 
-input  [31:0] pc_out, 
-input  [31:0] rd1, 
+module mux_alu_srcb( 
+input  [31:0] rd2, 
+input  [31:0] ImmExt, 
 input         
-ALUSrcA, 
-output [31:0] A 
+ALUSrcB, 
+output [31:0] B 
 ); 
-assign A = (ALUSrcA) ? pc_out : rd1; 
+assign B = (ALUSrcB) ? ImmExt : rd2; 
 endmodule
